@@ -1,0 +1,26 @@
+q or Q or <interrupt>   Exit from more
+j or <newline>		Scroll forward [k=1] lines
+k			Scroll backward [k=1] lines
+s                       Skip forward k lines
+f or ctrl-F or <space>	Scroll forward [k=1] page screenfuls
+b or ctrl-B             Scroll backward [k=1] page screenfuls
+d or ctrl-D		Scroll forward [k=1] half screenfuls
+u or ctrl-U             Scroll forward [k=1] half screenfuls
+g			Go to beginning-of-file
+G			Go to end-of-file
+r or ctrl-L        	Refresh screen
+R			Discard input and Refresh screen
+m			Mark position
+'                       Return to mark
+''			Return to previous position
+=                       Display current line number
+/<regular expression>   Search forward for pattern
+?<regular expression>   Search backward for pattern
+n                       Repeat search
+N			Repeat search in reverse
+v                       Start up '/usr/bin/vi' at current line
+:e			Examine a new file
+:f                      Display current file name and line number
+:n                      Go to [k=1]th next file
+:p                      Go to [k=1]th previous file
+:t			Go to tag

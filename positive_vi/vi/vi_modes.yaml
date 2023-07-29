@@ -1,0 +1,14 @@
+states:
+  - name: 'CMD'
+    on_enter: 'enter_cmd'
+  - name: 'INP'
+    on_enter: 'enter_inp'
+    
+transitions:
+  - ['escape_inp', 	'INP', 		'CMD']
+  - ['escape_cmd', 	'CMD/LINE', 	'CMD']
+  - ['escape_cmd', 	'CMD/LINE', 	'CMD']
+  - ['insert', 		'CMD', 		'INP']
+  - ['replace', 	'CMD', 		'INP/REPL']
+  
+  

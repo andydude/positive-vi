@@ -1,0 +1,28 @@
+commands:
+
+  - name: move_cursor_backward
+    como: emacs
+    parser: "ControlB"
+    
+  - name: move_cursor_down
+    como: emacs
+    parser: "ControlN"
+    
+  - name: move_cursor_forward
+    como: emacs
+    parser: "ControlF"
+    
+  - name: move_cursor_up
+    como: emacs
+    parser: "ControlP"
+    
+  - name: move_to_begin_of_line
+    como: emacs
+    parser: "ControlA"
+    
+  - name: move_to_end_of_line
+    como: emacs
+    parser: "ControlE"
+
+  - name: move_to_word_forward
+  - name: move_to_word_backward

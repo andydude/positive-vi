@@ -1,0 +1,5 @@
+q or Q or <interrupt>   Exit from more
+j or <newline>		Scroll forward [k=1] lines
+k			Scroll backward [k=1] lines
+<down>|<pgdn>|<space>	Scroll forward [k=1] screenfuls
+<up>|<pgup>             Scroll backward [k=1] screenfuls

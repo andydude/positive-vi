@@ -1,0 +1,44 @@
+$schema: "Command.schema.json"
+commands:
+
+  - name: scroll_half_backward
+    como: normal
+    grammars:
+      parser: "count? ControlU"
+
+  - name: scroll_half_forward
+    como: normal
+    grammars:
+      parser: "count? ControlD"
+    
+  - name: scroll_line_backward
+    como: normal
+    grammars:
+      parser: "count? ControlY"
+
+  - name: scroll_line_forward
+    como: normal
+    grammars:
+      parser: "count? ControlE"
+    
+  - name: scroll_page_backward
+    como: normal
+    grammars:
+      parser: "count? ControlB"
+
+  - name: scroll_page_forward
+    como: normal
+    grammars:
+      - "count? ControlF"
+
+  - name: file_info
+    como: normal
+    grammars:
+      - "ControlG"
+
+  - name: file_name
+    como: extend
+    grammars:
+      
+      parser: "FileCmd pathname"
+

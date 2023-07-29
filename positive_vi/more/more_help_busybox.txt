@@ -1,0 +1,3 @@
+q or Q or <interrupt>   Exit from more
+<newline>		Scroll forward [k=1] lines
+<space> 		Scroll forward [k=1] pages
