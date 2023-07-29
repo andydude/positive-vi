@@ -1,7 +1,8 @@
 """
 """
+import sys
 from argparse import ArgumentParser
-from positive_vi.vi.more_main import more_main
+from positive_vi.more.more_main import more_main
 from positive_vi.vi.ex_main import ex_main
 from positive_vi.vi.vi_main import vi_main
 

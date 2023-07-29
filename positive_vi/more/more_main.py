@@ -4,7 +4,7 @@ ex is POSIX-UP
 vi is POSIX-UP
 """
 try:
-    from .editbuffer import (Addr, Buffer as _Buffer,
+    from ..vi.Buffer import (Addr, Buffer as _Buffer,
         commands, modes, motions, options)
 except ImportError:
     from editbuffer import (Addr, Buffer as _Buffer,

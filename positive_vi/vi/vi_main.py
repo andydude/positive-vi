@@ -162,7 +162,7 @@ class View:
         os.putenv("ESCDELAY", "0")
         self.screen = stdscr
         self.window = self.config_window()
-        self.buffer = Buffer.from_file(
+        self.buffer = Buffer.from_filename(
             self.file[0], self.window)
         # self.screen.nodelay(True)
         self.screen.keypad(False)
