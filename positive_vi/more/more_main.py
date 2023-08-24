@@ -13,7 +13,6 @@ except ImportError:
 from argparse import ArgumentParser
 import binascii
 import curses.ascii
-import pcre2
 import sys
 import os
 

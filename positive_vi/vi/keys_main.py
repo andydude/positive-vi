@@ -33,7 +33,6 @@ import binascii
 import curses.ascii
 # import transitions
 import yaml
-import pcre2
 import sys
 import os
 
